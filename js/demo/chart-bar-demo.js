@@ -32,13 +32,13 @@ var ctx = document.getElementById("myBarChart");
 var myBarChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["Carmen", "Giovana", "Beto", "Caro", "Dulce", "Mangas"],
+    labels: ["", "", "", "", "", ""],  //Aqui van los nombres
     datasets: [{
       label: "Cintura",
       backgroundColor: "#4e73df",
       hoverBackgroundColor: "#2e59d9",
       borderColor: "#4e73df",
-      data: [92, 90, 91, 94, 96, 98],
+      data: [0, 0, 0, 0, 0, 0], //Aqui van las medidas en el mismo orden de los nombres
     }],
   },
   options: {

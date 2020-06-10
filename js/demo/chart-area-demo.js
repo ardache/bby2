@@ -32,7 +32,7 @@ var ctx = document.getElementById("myAreaChart");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Oct"],
+    labels: ["Oct - Doctor", "Oct - Giovanna"],
     datasets: [{
       label: "Parto",
       lineTension: 0.3,
@@ -46,7 +46,7 @@ var myLineChart = new Chart(ctx, {
       pointHoverBorderColor: "rgba(78, 115, 223, 1)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [1],
+      data: [1, 2],
     }],
   },
   options: {
@@ -111,7 +111,7 @@ var myLineChart = new Chart(ctx, {
         label: function(tooltipItem, chart) {
           var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
           //return datasetLabel + ': día ' + number_format(tooltipItem.yLabel) + ": Doctor";
-          return  'Día ' + number_format(tooltipItem.yLabel) + ": Doctor";
+          return  'Día ' + number_format(tooltipItem.yLabel);
         }
       }
     }

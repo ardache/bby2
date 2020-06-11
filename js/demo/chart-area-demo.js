@@ -32,7 +32,7 @@ var ctx = document.getElementById("myAreaChart");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Sept - Ari Hernandez","Sept - Nina Dul","Sept - Parzola y MIke :)", "Oct - Giovanna",  "Oct - Shantal", "Oct - Nimbe" , "Oct - Doctor", "Oct - Saint Martintosh"],
+    labels: ["Sept - Adriana Moreno", "Sept - Ari Hernandez","Sept - Nina Dul","Sept - Parzola y MIke :)", "Oct - Giovanna",  "Oct - Shantal", "Oct - Nimbe" , "Oct - Doctor", "Oct - Saint Martintosh"],
     datasets: [{
       label: "Parto",
       lineTension: 0.3,
@@ -46,7 +46,7 @@ var myLineChart = new Chart(ctx, {
       pointHoverBorderColor: "rgba(78, 115, 223, 1)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [27, 28, 30, 2, 3, 7, 8, 17],
+      data: [25, 27, 28, 30, 2, 3, 7, 8, 17],
     }],
   },
   options: {

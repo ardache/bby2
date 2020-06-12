@@ -1,7 +1,7 @@
 var porcSegTrim = 0
 var porcTerTrim = 0
 var porcTotalEmbarazo = 0
-var dt1 = new Date('1/3/2020');
+var dt1 = new Date('1/2/2020');
 var dt2 = new Date(Date.now())
 console.log(dt1)
 console.log(dt2)

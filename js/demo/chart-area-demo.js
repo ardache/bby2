@@ -32,7 +32,7 @@ var ctx = document.getElementById("myAreaChart");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Sept - Juan Manuel", "Sept - Adriana Moreno", "Sept - Ari Hernandez","Sept - Nina Dul","Sept - Parzola y MIke :)", "Oct - Giovanna",  "Oct - Shantal","Oct - Adriana M", "Oct - Nimbe" , "Oct - Doctor", "Oct - Pao PeAc", "Oct - Saint Martintosh"],
+    labels: ["Sept - Juan Manuel", "Sept - Adriana Moreno (16:30) y Anahi (10:25)", "Sept - Ari Hernandez","Sept - Nina Dul","Sept - Parzola y MIke :)", "Oct - Giovanna",  "Oct - Shantal","Oct - Adriana M", "Oct - Nimbe" , "Oct - Doctor", "Oct - Pao PeAc", "Oct - Saint Martintosh"],
     datasets: [{
       label: "Parto",
       lineTension: 0.3,

@@ -23,6 +23,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Entra AQUI, Estamos en VIVO...";
+    document.getElementById("demo").innerHTML = "Muchas gracias por tu participacion";
   }
 }, 1000);
